@@ -1,2 +1,2 @@
-# parallax-Matrix-card
+# Parallax-Matrix-card
 Only JS and CSS
