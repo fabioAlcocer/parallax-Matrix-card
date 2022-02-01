@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Effect Matrix</title>
+</head>
+<body>
+  <canvas id="canv"></canvas>
+  <div class="card">
+    <h1 class="font-effect-anaglyph card__title">Fabio Alcocer</h1>
+    <img src="img1.png" class="card__img">
+    <ul class="sci">
+      <li style="--i:1">
+        <a href="https://twitter.com/AlcocerSejas"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li style="--i:2">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li style="--i:3">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/17a53f75f7.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 10,
+		speed: 300
+	});
+	
+  </script>
+</body>
+</html>

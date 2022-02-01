@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@500&display=swap&effect=shadow-multiple|fire-animation|neon|3d|anaglyph');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#canv {
+  min-height: max-content;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.card {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(83, 156, 93, 0.623);
+}
+
+.card__img {
+  display: block;
+  width: 80%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card__title {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+
+.card .sci {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.card .sci li {
+  list-style: none;
+  margin: 0 10px;
+  opacity: 1;
+}
+
+
+.card .sci li a {
+  color: #fff;
+  font-size: 24px;
+  transition: color .3s ease;
+}
+
+.card .sci li a:hover {
+  color: rgba(211, 67, 192, 0.836);
+  transition: color .3s ease;
+}
